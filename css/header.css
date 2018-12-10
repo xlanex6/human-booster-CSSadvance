@@ -1,0 +1,13 @@
+header {
+  background-color: brown;
+  text-align: center;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header h2 {
+  color: chartreuse;
+  font-size: 30px;
+}

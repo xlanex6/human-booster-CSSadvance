@@ -1,0 +1,27 @@
+.cards {
+  height: 100vh;
+  background-color: bisque;
+}
+
+.card {
+  height: 350px;
+  width: 300px;
+  background-color: grey;
+  padding: 10px;
+}
+
+.main-card {
+  height: 280px;
+  text-align: center;
+}
+
+.main-card img {
+  height: 200px;
+}
+
+.stat {
+  display: flex;
+}
+
+.footer-card {
+}
