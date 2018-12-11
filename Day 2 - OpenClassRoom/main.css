@@ -1,0 +1,21 @@
+@import 'https://use.fontawesome.com/releases/v5.5.0/css/all.css';
+
+@import './css/colors.css';
+@import './css/nav.css';
+@import './css/button.css';
+@import './css/link.css';
+@import './css/lesson.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 997px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+}

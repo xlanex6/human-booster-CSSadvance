@@ -1,0 +1,32 @@
+.btn {
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.btn-plain:hover {
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.26), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-plain {
+  background-color: var(--purple);
+  color: var(--white);
+  border: solid 1px var(--purple);
+}
+
+.btn-outline {
+  color: var(--purple);
+  border: solid 1px var(--purple);
+}
+
+.btn-outline:hover {
+  background-color: #7451eb44;
+}
+
+.btn-drop {
+  border: solid 1px var(--grey);
+  color: var(--grey);
+  text-decoration: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}

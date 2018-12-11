@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  color: var(--black);
+  align-items: center;
+}
+
+nav h3 {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+nav input {
+  flex: 1 0;
+  margin: 0 10px;
+  height: 35px;
+  padding: 10px;
+}
+
+.border-nav {
+  border-bottom: solid 2px #7d7d7d33;
+  box-shadow: 0 1px 2px px rgba(0, 0, 0, 0.26);
+}

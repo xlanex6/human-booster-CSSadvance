@@ -1,0 +1,22 @@
+.parent {
+  width: 600px;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enfant {
+  flex: 0 0 20px;
+  /* width: 20px; */
+  background-color: aqua;
+  border: solid 1px wheat;
+  display: flex;
+  justify-content: space-around;
+}
+
+.spec {
+  align-self: flex-end;
+}
