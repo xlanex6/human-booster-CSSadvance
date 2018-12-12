@@ -37,3 +37,7 @@ video#bgvideo {
 .car-illustration {
   font-size: 50px;
 }
+
+#disqus_thread {
+  width: 100%;
+}
